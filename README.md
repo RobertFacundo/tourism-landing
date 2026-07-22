@@ -10,7 +10,7 @@ The landing experience includes scroll-driven animations, smooth transitions, re
 
 ## 🌐 Live Demo
 
-[https://your-deployment-url.vercel.app/](https://tourism-landing-lovat.vercel.app/)
+[https://tourism-landing-lovat.vercel.app/](https://tourism-landing-lovat.vercel.app/)
 
 ---
 
