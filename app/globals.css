@@ -1,5 +1,21 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
+.hero-background {
+  background-image: url('/images/home/heroBackground.png');
+}
+.landmark-background {
+  background-image: url('/images/home/landmarkBackground.jpg');
+}
+.experience-background {
+  background-image: url('/images/home/experienceBackground.jpg');
+}
+.travel-background {
+  background-image: url('/images/home/travelBackground.jpg');
+}
+.trip-background {
+  background-image: url('/images/home/tripBackground.jpg');
+}
+/* 
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -23,4 +39,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
