@@ -9,7 +9,7 @@ const ArrowButton = ({ children }: ArrowButtonProps) => {
   return (
     <button
       className='
-        flex items-center justify-center gap-2
+        flex items-center justify-start gap-2
         bg-transparent
         px-6 py-3
         text-lg

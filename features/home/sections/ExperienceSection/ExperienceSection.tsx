@@ -1,6 +1,7 @@
 import SectionLayout from '@/shared/components/ui/SectionLayout'
 import SectionContent from '@/shared/components/ui/SectionContent'
 import ArrowButton from '@/shared/components/ui/ArrowButton'
+import ExperienceCards from './ExperienceCards'
 
 const ExperienceSection = () => {
   return (
@@ -15,6 +16,7 @@ const ExperienceSection = () => {
       >
         <ArrowButton>DISCOVER EXPERIENCES</ArrowButton>
       </SectionContent>
+      <ExperienceCards />
     </SectionLayout>
   )
 }

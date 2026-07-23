@@ -20,7 +20,9 @@ const SectionLayout = ({
       )}
     >
       <div className={cn('absolute inset-0', overlayClassName)} />
-      <div className='relative h-full px-40'>{children}</div>
+      <div className='relative h-full px-32 flex flex-row justify-between'>
+        {children}
+      </div>
     </section>
   )
 }
