@@ -1,5 +1,4 @@
 import SectionLayout from '@/shared/components/ui/SectionLayout'
-import HeroContent from './HeroContent'
 import PrimaryButton from '@/shared/components/ui/PrimaryButton'
 import SectionContent from '@/shared/components/ui/SectionContent'
 

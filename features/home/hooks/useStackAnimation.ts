@@ -23,7 +23,7 @@ export const useStackAnimation = (
       gsap.set(sections.slice(1), {
         yPercent: 100,
         scale: 1,
-        opacity: 1
+        opacity: 0
       })
 
       const timeline = gsap.timeline({
@@ -54,6 +54,7 @@ export const useStackAnimation = (
           timeline.to(
             nextCard,
             {
+              opacity: 1,
               yPercent: 0,
               scale: 1,
               ease: 'none'
@@ -65,8 +66,8 @@ export const useStackAnimation = (
             .to(
               currentCard,
               {
-                scale: 0.85,
-                opacity: 0.5,
+                scale: 0.45,
+                opacity: 0.7,
                 filter: 'blur(5px)',
                 duration: 1,
                 ease: 'none'
@@ -77,6 +78,7 @@ export const useStackAnimation = (
               nextCard,
               {
                 yPercent: 0,
+                opacity: 1,
                 duration: 1,
                 scale: 1,
                 ease: 'none'

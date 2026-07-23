@@ -1,5 +1,4 @@
 import SectionLayout from '@/shared/components/ui/SectionLayout'
-import LandmarkContent from './LandmarkContent'
 import ArrowButton from '@/shared/components/ui/ArrowButton'
 import SectionContent from '@/shared/components/ui/SectionContent'
 

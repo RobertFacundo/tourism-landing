@@ -38,6 +38,9 @@ export default function RootLayout ({
       lang='en'
       className={`${geistSans.variable} ${geistMono.variable} ${cormorant.variable} h-full antialiased`}
     >
+      <head>
+        <link rel='preload' as='image' href='/images/home/heroBackground.png' />
+      </head>
       <body className='min-h-full flex flex-col'>
         <SmoothScroll />
         <SectionIndicator />
