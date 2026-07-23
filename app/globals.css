@@ -15,6 +15,28 @@
 .trip-background {
   background-image: url('/images/home/tripBackground.jpg');
 }
+
+:root {
+  --font-heading: var(--font-cormorant);
+  --font-body: var(--font-geist-mono);
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+}
+
+.text-shadow-red {
+  text-shadow: -3px -2px 8px rgba(233, 8, 8, 0.535);
+}
+.text-shadow-white {
+  text-shadow: -3px -2px 8px rgba(248, 244, 244, 0.5);
+}
 /* 
 :root {
   --background: #ffffff;
