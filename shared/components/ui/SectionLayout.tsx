@@ -4,9 +4,14 @@ import { cn } from '@/shared/lib/utils'
 interface SectionProps {
   children: ReactNode
   className?: string
+  overlayClassName?: string
 }
 
-const SectionLayout = ({ children, className }: SectionProps) => {
+const SectionLayout = ({
+  children,
+  className,
+  overlayClassName = 'bg-black/30'
+}: SectionProps) => {
   return (
     <section
       className={cn(
@@ -14,7 +19,7 @@ const SectionLayout = ({ children, className }: SectionProps) => {
         className
       )}
     >
-      <div className='absolute inset-0 bg-black/20' />
+      <div className={cn('absolute inset-0', overlayClassName)} />
       <div className='relative h-full px-40'>{children}</div>
     </section>
   )

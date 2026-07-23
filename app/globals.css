@@ -37,6 +37,14 @@ h3 {
 .text-shadow-white {
   text-shadow: -3px -2px 8px rgba(248, 244, 244, 0.5);
 }
+
+.stack-item {
+  opacity: 0;
+}
+
+.stack-item:first-child {
+  opacity: 1;
+}
 /* 
 :root {
   --background: #ffffff;
