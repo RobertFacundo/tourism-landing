@@ -1,5 +1,5 @@
-import { sections } from '../constants/section'
-import { cn } from '../lib/utils'
+import { sections } from '../../constants/section'
+import { cn } from '../../lib/utils'
 
 interface SectionProgressProps {
   progress: number
@@ -26,8 +26,8 @@ const SectionProgress = ({ progress, activeDot }: SectionProgressProps) => {
             index === activeDot
               ? 'h-3 w-3 bg-white'
               : index < activeDot
-              ? 'h-2 w-2 bg-white'
-              : 'h-2 w-2 bg-white/30'
+              ? 'h-2 w-2 bg-red-700'
+              : 'h-2 w-2 bg-blue-700/50'
           )}
         />
       ))}

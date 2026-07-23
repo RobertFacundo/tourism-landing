@@ -1,9 +1,10 @@
+import SectionLayout from '@/shared/components/ui/SectionLayout'
+
 const PlanTripSection = () => {
   return (
-    <section className='stack-item z-50 absolute inset-0 h-screen bg-cover bg-center trip-background'>
-      <div className='absolute inset-0 bg-black/50' />
+    <SectionLayout className='z-50 trip-background'>
       <h1>Plan your Dream Trip</h1>
-    </section>
+    </SectionLayout>
   )
 }
 

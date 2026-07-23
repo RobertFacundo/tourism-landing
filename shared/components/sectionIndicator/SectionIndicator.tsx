@@ -1,9 +1,9 @@
 'use client'
-import { useIndicatorAnimation } from '../animations/useIndicatorAnimation'
+import { useIndicatorAnimation } from '../../animations/useIndicatorAnimation'
 import SectionProgress from './SectionProgress'
 import { useRef } from 'react'
-import { cn } from '../lib/utils'
-import { useSectionIndicator } from '../hooks/useSectionIndicator'
+import { cn } from '../../lib/utils'
+import { useSectionIndicator } from '../../hooks/useSectionIndicator'
 
 const SectionIndicator = () => {
   const {
@@ -24,11 +24,11 @@ const SectionIndicator = () => {
         <div
           key={currentSection}
           ref={currentRef}
-          className='flex w-full flex-col gap-2'
+          className='flex w-full flex-col gap-2 text-shadow-white'
         >
           <span
             className={cn(
-              'font-light text-center indicator-number transition-all duration-500 ease-out',
+              'font-light text-center indicator-number transition-all duration-500 ease-out ',
               isFinalTransition
                 ? 'text-2xl text-white/40'
                 : 'text-5xl text-white'
