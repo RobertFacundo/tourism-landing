@@ -38,6 +38,10 @@ h3 {
   text-shadow: -3px -2px 8px rgba(248, 244, 244, 0.5);
 }
 
+.image-card-shadow {
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6), 0 0 20px rgba(255, 255, 255, 0.08);
+}
+
 .stack-item {
   opacity: 0;
 }

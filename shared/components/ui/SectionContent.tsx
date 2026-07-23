@@ -35,11 +35,13 @@ const SectionContent = ({
           {eyebrow}
         </span>
 
-        <h1 className='mt-5 text-8xl text-white text-shadow-white'>{title}</h1>
+        <h1 className='mt-5 text-8xl text-white text-shadow-white ml-2'>
+          {title}
+        </h1>
 
         <h2
           className={cn(
-            'text-7xl tracking-wide text-shadow-red',
+            'text-7xl tracking-wide text-shadow-red ml-3',
             accentTitleClassName
           )}
         >
@@ -48,7 +50,10 @@ const SectionContent = ({
       </div>
 
       <p
-        className={cn('w-[450px] text-lg text-white/50', descriptionClassName)}
+        className={cn(
+          'w-[450px] text-lg text-white/50 ml-1',
+          descriptionClassName
+        )}
       >
         {description}
       </p>

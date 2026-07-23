@@ -1,6 +1,7 @@
 import SectionLayout from '@/shared/components/ui/SectionLayout'
 import ArrowButton from '@/shared/components/ui/ArrowButton'
 import SectionContent from '@/shared/components/ui/SectionContent'
+import LandMarkCards from './LandMarkCards'
 
 const LandmarkSection = () => {
   return (
@@ -15,6 +16,7 @@ const LandmarkSection = () => {
       >
         <ArrowButton>EXPLORE LANDMARKS</ArrowButton>
       </SectionContent>
+      <LandMarkCards />
     </SectionLayout>
   )
 }
