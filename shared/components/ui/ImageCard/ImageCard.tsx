@@ -29,7 +29,7 @@ const ImageCard = ({ card, variant = 'landmark' }: ImageCardProps) => {
           variant === 'landmark' ? 'bottom-6' : 'bottom-1 left-3'
         )}
       >
-        <h3 className='text-xl mb-3 tracking-wider text-white text-shadow-white'>
+        <h3 className='text-lg mb-3 tracking-wide text-white text-shadow-white'>
           {title}
         </h3>
 
