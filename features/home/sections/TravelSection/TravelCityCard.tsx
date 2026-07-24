@@ -11,12 +11,12 @@ const TravelCityCard = () => {
       className={`
         absolute left-170 top-1/2
         -translate-y-1/2
-        w-[400px]
+        w-[450px]
         transition-all duration-500
         ${activeCity ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}
       `}
     >
-      <div className='overflow-hidden rounded-xl bg-black/20 backdrop-blur-md'>
+      <div className='overflow-hidden rounded-xl bg-black/10 backdrop-blur-md border border-white/10 hover:scale-101 transition-transform duration-700'>
         <div className='relative h-[230px]'>
           <Image
             src={activeCity.image}

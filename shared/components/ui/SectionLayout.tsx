@@ -5,15 +5,18 @@ interface SectionProps {
   children: ReactNode
   className?: string
   overlayClassName?: string
+  id?: string
 }
 
 const SectionLayout = ({
   children,
   className,
-  overlayClassName = 'bg-black/30'
+  overlayClassName = 'bg-black/30',
+  id
 }: SectionProps) => {
   return (
     <section
+      id={id}
       className={cn(
         'stack-item absolute inset-0 h-screen bg-cover bg-center',
         className

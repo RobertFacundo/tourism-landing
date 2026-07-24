@@ -10,7 +10,7 @@ interface TravelState {
 }
 
 export const useTravelStore = create<TravelState>(set => ({
-  activeCity: travelCities[0],
+  activeCity: travelCities[4],
   isRoutePlaying: false,
 
   setActiveCity: city => set({ activeCity: city }),
