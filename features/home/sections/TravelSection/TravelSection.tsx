@@ -1,6 +1,8 @@
 import SectionLayout from '@/shared/components/ui/SectionLayout'
 import SectionContent from '@/shared/components/ui/SectionContent'
 import ArrowButton from '@/shared/components/ui/ArrowButton'
+import TravelRoute from './TravelRoute'
+import TravelCityCard from './TravelCityCard'
 
 const TravelSection = () => {
   return (
@@ -15,6 +17,8 @@ const TravelSection = () => {
       >
         <ArrowButton>EXPLORE JOURNEYS</ArrowButton>
       </SectionContent>
+      <TravelCityCard />
+      <TravelRoute />
     </SectionLayout>
   )
 }
